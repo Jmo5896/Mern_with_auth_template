@@ -23,13 +23,13 @@
   "homepage": "https://github.com/Jmo5896/Mern_with_auth_template#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "concurrently": "^4.1.0",
+    "concurrently": "^4.1.1",
     "express": "^4.17.1",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.5.12",
+    "mongoose": "^5.6.7",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "validator": "^11.0.0"
+    "validator": "^11.1.0"
   }
 }

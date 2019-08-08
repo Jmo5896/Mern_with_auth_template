@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { registerUser } from '../../actions/authActions';
-import classNames from 'classnames';
+import { registerUser } from "../../actions/authActions";
+import classNames from "classnames";
 
 class Register extends Component {
   constructor() {
@@ -39,7 +39,7 @@ class Register extends Component {
       password2: this.state.password2
     };
 
-   this.props.registerUser(newUser, this.props.history);
+    this.props.registerUser(newUser, this.props.history);
   };
 
   render() {

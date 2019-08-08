@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { connect } from "tls";
 
 class Register extends Component {
   constructor() {
@@ -112,4 +113,6 @@ class Register extends Component {
   }
 }
 
-export default Register;
+export default connect(
+  mapStateToProps,
+  { registerUser }) (withRouter(Register));

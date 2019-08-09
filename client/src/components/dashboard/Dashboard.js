@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { connect } from 'react-redux';
 import { logoutUser } from "../../actions/authActions";
 
 class Dashboard extends Component {
@@ -41,7 +42,7 @@ class Dashboard extends Component {
     }
 }
 
-Dashboard.PropTypes = {
+Dashboard.propTypes = {
     logoutUser: PropTypes.func.isRequired,
     auth: PropTypes.object.isRequired
 };
